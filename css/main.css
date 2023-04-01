@@ -17,6 +17,7 @@
     height: 33px;
     font-size: 20px;
     margin-top: 70px;
+    border: 1px solid red;
 }
 .button{
     width: 9vw;
