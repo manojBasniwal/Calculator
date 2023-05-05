@@ -20,8 +20,9 @@
 .container{
     width: 50%;
 margin: auto;
-border: 1px solid black;
+/* border: 1px solid black; */
 border-radius: 15px;
+box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
 }
 .heading{
     text-align: center;
@@ -31,7 +32,7 @@ border-radius: 15px;
     border-radius: 15px 15px 0 0;  
 }
 .input{
-    width: -moz-available;
+    width: 100%;
     display: flex;
 margin: auto;
 justify-content: center;
