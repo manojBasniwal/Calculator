@@ -7,48 +7,54 @@
     <title>Calculator</title>
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
+    <link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Raleway&family=Roboto+Slab&family=Roboto:ital@1&display=swap" rel="stylesheet"> 
 </head>
 <body>
 
 </head>
 <body>
 
-   <div class="container">
-    <div class="container-box">
-    <input type="text" class="input" placeholder="0">
+   <section class="container">
+    <!-- <div class="container-box"> -->
+        <h4 class="heading">Calculator</h4>
+    <form>
+        <!-- <h4 class="heading">Calculator</h4> -->
+        <input type="input" class="input" placeholder="0">
+    </form>
+    <div class="buttons">
     <div class="row">
-        <button class="button btn-color-aqua">C</button>
-        <button class="button btn-color-aqua" onclick="delet()"><i class="fa fa-delete-left"></i></button>
-        <button class="button btn-color-aqua">%</button>
-        <button class="button btn-color-red">/</button>
+        <button class="button btn-color-red">C</button>
+        <button class="button btn-color-blue" onclick="delet()"><i class="fa fa-delete-left"></i></button>
+        <button class="button btn-color-blue">%</button>
+        <button class="button btn-color-blue">/</button>
     </div>
     <div class="row">
         <button class="button">7</button>
         <button class="button">8</button>
         <button class="button">9</button>
-        <button class="button btn-color-red">*</button>
+        <button class="button btn-color-blue">*</button>
     </div>
     <div class="row">
         <button class="button">4</button>
         <button class="button">5</button>
         <button class="button">6</button>
-        <button class="button btn-color-red">-</button>
+        <button class="button btn-color-blue">-</button>
     </div>
     <div class="row">
         <button class="button">1</button>
         <button class="button">2</button>
         <button class="button">3</button>
-        <button class="button btn-color-red">+</button>
+        <button class="button btn-color-blue">+</button>
     </div>
     <div class="row">
         <button class="button">00</button>
         <button class="button">0</button>
         <button class="button">.</button>
-        <button class="button btn-color-red">=</button>
+        <button class="button bg-color">=</button>
     </div>
     </div>
-   </div> 
+    <!-- </div> -->
+   </section> 
    <script src="./js/main.js"></script>
 </body>
 </html>

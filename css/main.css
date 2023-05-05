@@ -1,15 +1,67 @@
 *{
     margin: 0;
-    min-width: 70px;
-    min-height: 53px;
+    padding: 0;
+    /* min-width: 70px;
+    min-height: 53px; */
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
 }
 .btn-color-red{
     color: red!important;
 }
-.btn-color-aqua{
-    color: aqua!important;
+.btn-color-blue{
+    color: blue!important;
 }
-.container-box{
+.bg-color{
+    color: white;
+    background-color: blue!important;
+    border-radius: 5px; 
+}
+.container{
+    width: 50%;
+margin: auto;
+border: 1px solid black;
+border-radius: 15px;
+}
+.heading{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    background-color: lightgray;
+    border-radius: 15px 15px 0 0;  
+}
+.input{
+    width: -moz-available;
+    display: flex;
+margin: auto;
+justify-content: center;
+background-color: lightgray;
+padding: 35px 15px 40px 0;
+text-align: end;
+border: none;
+font-size: 40px;
+}
+.buttons{
+    padding: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+}
+.button{
+    border: none;
+background-color: white;
+padding: 10px;
+width: 56px;
+font-size: 25px;
+margin: 10px;
+border-radius: 5px;
+}
+.button:active{
+    background-color: lightgray;
+}
+/* .container-box{
     border: 1px solid;
     width: fit-content;
     margin: auto;
@@ -17,8 +69,8 @@
     padding: 10px;
     background-color: darksalmon;
     margin-top: 50px;
-}
-.container .row{
+} */
+/* .container .row{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,8 +86,11 @@
     margin-top: 40px;
     border: 1px solid red;
     border-radius: 10px;
+} */
+.input:focus-visible{
+    outline: 0;
 }
-.container .row .button{
+/* .container .row .button{
     width: 9vw;
     height: 5vw;
     margin: 2px;
@@ -46,19 +101,20 @@
     align-items: center;
     background-color: white;
     color: black;
-}
-.container .row .button .fa{
+} */
+/* .container .row .button .fa{
     display: flex!important;
     justify-content: center;
     align-items: center;
-}
+} */
 .color-red{
     background-color: red;
 }
-@media screen and (max-width:768px){
-    .input{
-        min-width: 262px;
-        min-height: 43px;
+@media screen and (max-width:576px){
+    .container{
+        /* min-width: 262px;
+        min-height: 43px; */
+        width: 100%;
     }
 }
     
