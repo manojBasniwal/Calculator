@@ -37,7 +37,7 @@ box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
 margin: auto;
 justify-content: center;
 background-color: lightgray;
-padding: 35px 15px 40px 0;
+padding: 41px 15px 64px 0;
 text-align: end;
 border: none;
 font-size: 40px;
@@ -61,6 +61,7 @@ border-radius: 5px;
 }
 .button:active{
     background-color: lightgray;
+    border: none;
 }
 /* .container-box{
     border: 1px solid;
