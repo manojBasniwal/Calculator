@@ -1,8 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    /* min-width: 70px;
-    min-height: 53px; */
     box-sizing: border-box;
     font-family: 'Roboto Slab', serif;
 }
@@ -19,10 +17,9 @@
 }
 .container{
     width: 50%;
-margin: auto;
-/* border: 1px solid black; */
-border-radius: 15px;
-box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
 }
 .heading{
     text-align: center;
@@ -34,13 +31,13 @@ box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
 .input{
     width: 100%;
     display: flex;
-margin: auto;
-justify-content: center;
-background-color: lightgray;
-padding: 41px 15px 64px 0;
-text-align: end;
-border: none;
-font-size: 40px;
+    margin: auto;
+    justify-content: center;
+    background-color: lightgray;
+    padding: 41px 15px 64px 0;
+    text-align: end;
+    border: none;
+    font-size: 40px;
 }
 .buttons{
     padding: 10px;
@@ -52,70 +49,25 @@ font-size: 40px;
 }
 .button{
     border: none;
-background-color: white;
-padding: 10px;
-width: 56px;
-font-size: 25px;
-margin: 10px;
-border-radius: 5px;
+    background-color: white;
+    padding: 10px;
+    width: 56px;
+    font-size: 25px;
+    margin: 10px;
+    border-radius: 5px;
 }
 .button:active{
     background-color: lightgray;
     border: none;
 }
-/* .container-box{
-    border: 1px solid;
-    width: fit-content;
-    margin: auto;
-    margin-top: auto;
-    padding: 10px;
-    background-color: darksalmon;
-    margin-top: 50px;
-} */
-/* .container .row{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.container .input{
-    margin: 40px auto;
-    margin-top: 20px;  
-    display: flex;
-    text-align: end;
-    width: 35vw;
-    height: 33px;
-    font-size: 20px;
-    margin-top: 40px;
-    border: 1px solid red;
-    border-radius: 10px;
-} */
 .input:focus-visible{
     outline: 0;
 }
-/* .container .row .button{
-    width: 9vw;
-    height: 5vw;
-    margin: 2px;
-    border-radius: 5px;
-    font-size: 23px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    color: black;
-} */
-/* .container .row .button .fa{
-    display: flex!important;
-    justify-content: center;
-    align-items: center;
-} */
-.color-red{
+/* .color-red{
     background-color: red;
-}
+} */
 @media screen and (max-width:576px){
     .container{
-        /* min-width: 262px;
-        min-height: 43px; */
         width: 100%;
     }
 }

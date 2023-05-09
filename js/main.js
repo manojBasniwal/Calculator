@@ -12,6 +12,10 @@ for(let i=0; i<buttons.length; i++){
             string = ""
             document.querySelector('input').value = string;
         }
+        else if(e.target.innerHTML =="x"){
+            string += "*";
+            document.querySelector('input').value = string;
+        }
         else{
             string = string + e.target.innerHTML;
             document.querySelector('input').value = string;
